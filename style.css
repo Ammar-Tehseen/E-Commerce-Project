@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --bg-nav: #111111;
+    --text-nav: #ffffff;
+}
+
+
+.top-header {
+    background: var(--bg-nav);
+    color: var(--text-nav);
+}
+
+.ex {
+    padding: 10px;
+}
+
+#nav-section {
+    margin: 0 15px;
+    padding-top: 8px;
+    
+}
+
+
+.nav-section {
+    background-image: url(./images/hero-background/hero-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: var(--text-nav);
+}
+
+
+.right-nav input::placeholder {
+    color: var(--text-nav);
+}
+
+.nav-button button {
+    padding: 8px 16px;
+    margin-right: 8px;
+}

@@ -5,15 +5,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Style Hub</title>
     <link rel="icon" type="image/png" href="images/logo/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
 
-    <header class="w-full">
+    <!-- HEADER NAV AND HERO SECTION-->
+    <header class="w-full h-full">
 
+        <!-- This is for the top black section --> 
+        <div class="top-header w-full h-10">
+            <div class="flex justify-around text-[12px] ex">
+                <div class="left">
+                    <p>The Green Linen Suit</p>
+                </div>
+                
+                <div class="center">
+                    <p>New Season & Suits</p>
+                </div>
+                
+                <div class="right">
+                    <p>Buy 2 get 1 free</p>
+                </div>
+            </div>
+        </div>
+        <!-- ************************************ -->
         
+        <!-- This is for the top and nav section -->
+        <div class="nav-section flex flex-col">
+
+            <div class="flex items-center justify-between text-md" id="nav-section">
+
+                <div class="right-nav flex items-center gap-4">
+                    <i class="fa-solid fa-bars text-[14px] cursor-pointer"></i>
+                    <div class="flex items-center gap-2">
+                        <i class="fa-solid fa-magnifying-glass text-[12px]"></i>
+                        <input type="text" placeholder="Search...." class="text-[12px] text-black border-none outline-none">
+                    </div>
+                </div>
+
+                <div class="center-nav">
+                    <img src="./images/logo/header-logo-white.png" alt="" class="w-[120px]">
+                </div>
+
+                <div class="left-nav flex items-center gap-5">
+                    <div class="nav-button text-sm">
+                        <button class="bg-black text-white rounded-3xl cursor-pointer">Login</button>
+                        <button  class="bg-black text-white rounded-3xl cursor-pointer">Signup</button>
+                    </div>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+
+            </div>
+            
+            <div class="flex flex-1 items-center justify-center flex-col leading-[1.7]">
+                    <h3 class="text-[18px] uppercase">New Season</h3>
+                    <h1 class="text-[32px]">Autumn '25</h1>
+                    <button class="cursor-pointer border-b border-white uppercase">Shop Now</button>
+            </div>
+        </div>
 
     </header>
+    <!-- ******************************************************* -->
+
+
+
 
     <script src="app.js"></script>
 </body>
