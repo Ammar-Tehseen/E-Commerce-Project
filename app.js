@@ -300,3 +300,13 @@ const clothes = [
         rating: 4.0,
     },
 ]
+
+
+const SUPABASE_URL = "https://ymhqxlsdwqhymyxczabk.supabase.co";
+const SUPABASE_ANON_KEY ="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InltaHF4bHNkd3FoeW15eGN6YWJrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTU5NjY0NzMsImV4cCI6MjA3MTU0MjQ3M30.3_3rKa1Asgx2DT48cL032404z4WPUlk9APDfIBaQOpY";
+
+const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+
+const inputEmail = document.getElementById("email");
+const inputPassword = document.getElementById("password");
+const continueBtn = document.getElementById("continue");
