@@ -41,7 +41,7 @@
     color: var(--text-nav);
 }
 
-.nav-button button {
+.nav-button a {
     padding: 8px 16px;
     margin-right: 8px;
 }

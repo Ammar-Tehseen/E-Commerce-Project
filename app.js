@@ -311,6 +311,5 @@ const inputEmail = document.getElementById("email");
 const inputPassword = document.getElementById("password");
 const continueBtn = document.getElementById("continue");
 
-console.log("syed khizer ali");
 
 
