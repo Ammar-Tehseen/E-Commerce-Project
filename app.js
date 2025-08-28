@@ -310,3 +310,7 @@ const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 const inputEmail = document.getElementById("email");
 const inputPassword = document.getElementById("password");
 const continueBtn = document.getElementById("continue");
+
+console.log("syed khizer ali");
+
+
